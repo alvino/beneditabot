@@ -1,8 +1,7 @@
 {
   "name": "beneditabot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "start": "node build/index.js",
     "dev"  : "nodemon src/index.ts",
@@ -12,13 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/alvino/beneditabot.git"
   },
-  "keywords": [],
+ 
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alvino/beneditabot/issues"
-  },
-  "homepage": "https://github.com/alvino/beneditabot#readme",
+  
   "dependencies": {
     "express": "^4.17.1"
   },
