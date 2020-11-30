@@ -25,7 +25,7 @@ app.get('/', (req, res) => res.json(
         "opcao": "1",
         "acao_dados": {
           // Uma URL que você vai receber o POST com a transcrição do que foi falado
-          "url": "https://fooo.com.br"
+          "url": "https://beneditabot.herokuapp.com/"
         }
       }
     ]
