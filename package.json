@@ -2,6 +2,12 @@
   "name": "beneditabot",
   "version": "1.0.0",
   "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvino/beneditabot.git"
+  },
+  "author": "",
+  "license": "MIT",
   "engines": {
     "node": "12.x"
   },
@@ -10,12 +16,6 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc --project ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alvino/beneditabot.git"
-  },
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
